@@ -9,5 +9,8 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+ values_array = []
+  groceries.map do |category, list|
+  list.map do |items|
+    values_array << items
 end
