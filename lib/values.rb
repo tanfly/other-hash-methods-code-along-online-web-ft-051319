@@ -13,6 +13,5 @@ def get_the_values(groceries)
   groceries.map do |category, items|
   values_array << items
 end
-end
 values_array
 end
