@@ -14,8 +14,8 @@ def get_the_min(groceries)
   list.each do |items|
   alphabet_groceries << items
 end
+end
   alphabet_groceries.sort
-  end
 end
 alphabet_groceries[0]
 end
