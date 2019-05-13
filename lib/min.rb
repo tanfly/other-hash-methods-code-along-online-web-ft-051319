@@ -12,5 +12,6 @@ def get_the_min(groceries)
   groceries.map do |category, list|
   list.map do |items|
     return items.min
+  end
 end
 end
