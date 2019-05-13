@@ -9,9 +9,11 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
+  alphabet_groceries = []
   groceries.map do |category, list|
   list.map do |items|
-    return items.min
+  alphabet_groceries << items.sort
   end
 end
+alphabet_groceries[0]
 end
