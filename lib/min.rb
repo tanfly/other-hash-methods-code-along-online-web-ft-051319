@@ -9,12 +9,5 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  alphabet_groceries = []
-  groceries.map do |category, list|
-  list.each do |items|
-  alphabet_groceries << items
-end
-end
-  alphabet_groceries.sort
-alphabet_groceries[0]
+groceries.values.flatten.min
 end
