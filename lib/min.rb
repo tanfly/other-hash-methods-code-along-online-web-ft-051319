@@ -13,6 +13,7 @@ def get_the_min(groceries)
   groceries.map do |category, list|
   list.each do |items|
   alphabet_groceries << items
+end
   alphabet_groceries.sort
   end
 end
