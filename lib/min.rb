@@ -13,3 +13,4 @@ def get_the_min(groceries)
   list.map do |items|
     return items.min
 end
+end
