@@ -16,6 +16,5 @@ def get_the_min(groceries)
 end
 end
   alphabet_groceries.sort
-end
 alphabet_groceries[0]
 end
